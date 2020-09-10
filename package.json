@@ -17,6 +17,8 @@
   "dependencies": {
     "@hapi/boom": "9.x.x",
     "@hapi/joi": "^15.1.1",
+    "boom": "^7.3.0",
+    "hapi-auth-jwt2": "^10.2.0",
     "hapi-sequelizejs": "^4.3.0",
     "hapi-swaggered": "^3.0.2",
     "hapi-swaggered-ui": "^3.0.2",
@@ -39,6 +41,7 @@
     "hpal": "2.x.x",
     "hpal-debug": "1.x.x",
     "nodemon": "^2.0.4",
+    "prettier": "^2.1.1",
     "sequelize-cli": "^6.2.0",
     "toys": "2.x.x"
   }
