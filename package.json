@@ -25,9 +25,11 @@
     "hapi-swaggered": "^3.0.2",
     "hapi-swaggered-ui": "^3.0.2",
     "haute-couture": "3.x.x",
+    "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.3.5",
+    "uuid": "^8.3.0"
   },
   "devDependencies": {
     "@hapi/code": "8.x.x",
@@ -44,6 +46,7 @@
     "hpal-debug": "1.x.x",
     "nodemon": "^2.0.4",
     "prettier": "^2.1.1",
+    "redis-mock": "^0.51.0",
     "sequelize-cli": "^6.2.0",
     "toys": "2.x.x"
   }

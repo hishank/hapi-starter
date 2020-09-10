@@ -2,7 +2,7 @@
 
 const Glue = require('@hapi/glue');
 const Manifest = require('./manifest');
-
+const { validate } = require ('../lib/helpers/auth')
 exports.deployment = async (start) => {
 
     const manifest = Manifest.get('/');
